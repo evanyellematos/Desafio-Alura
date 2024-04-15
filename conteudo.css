@@ -1,0 +1,37 @@
+.conteudo{
+    font-size: 20px;
+    color: var(--cinza-escuro);
+}
+
+.conteudo__{
+display: flex;
+justify-content: flex-start;
+margin: 2em 20em;
+text-decoration: none;
+font-size: 20px;
+color: var(--cinza-escuro);
+}
+.conteudo__grupo{
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    margin: 1em 20em;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 16px;
+    padding: 1em;
+    gap: 24px;
+    width: 35%;
+}
+.conteudo__opcoes{
+    font-size: 18px;
+    color: var(--cinza-escuro);
+    text-decoration: none;
+}
+.conteudo__itens
+{
+display: flex;
+gap: 1em;
+}
+.conteudo__item{
+    color: var(--cinza);
+}

@@ -1,0 +1,79 @@
+.conclusao{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1em;
+margin: 1em 3em;
+padding: 2em 5em;
+border: 1px solid var(--vinho-secundario);
+border-radius: 16px;
+background-color: var(--vinho-terciario);
+}
+.conclusao__{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+    text-decoration: none;
+}
+.conclusao__titulo{
+    font-size: 26px;
+    margin: 0 1em;
+    padding: 0 4em;
+    color: var(--cinza-escuro);
+    text-align: center;
+}
+.conclusao__imagem{
+width: 32px
+}
+.conclusao__texto{
+color: var(--cinza-escuro);
+text-decoration: none;
+}
+.conclusao__paragrafo{
+color: var(--cinza);
+font-size: 14px;
+font-weight: 400;}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin: 3em 0 0 0;
+    background-color: var(--azul-claro);
+}
+.rodape__titulo{
+    font-size: 26px;
+    font-weight: 600;
+    margin: 2em 0 0 0;
+    color: var(--cinza-escuro);
+}
+.rodape__texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    text-decoration: none;
+line-height: 30px;
+text-align: center;
+
+}
+.rodape__grupo{
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+
+}
+.rodape__busca{
+    font-weight: 400;
+    color: var(--cinza);
+    border: 1px solid var(--cor);
+    border-radius: 8px;
+    padding: 0.5em 1em;
+}
+.rodape__paragrafo{
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    margin: 1em 0 4em 0;
+
+}
